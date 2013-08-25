@@ -27,7 +27,7 @@ addpath(strcat(Dir, '\..\utils'))
 
 %generate own symbol set
 seed = 06098231;
-SymbolSet = RandomQSS_Generator(seed, 4, [1:3]);
+SymbolSet = RandomMRS_Generator(seed, 4, 2, [1:3]);
 
 
 %for convinience, different SymbolSet are typed below
